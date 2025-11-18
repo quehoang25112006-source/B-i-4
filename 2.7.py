@@ -2,6 +2,10 @@ print("Sinh vien: Hoang Van Que")
 print("Ma so SV : 245752021610045")
 print("###########################")
 ########*##*#####################
-S = input ('Nhap chuoi:')
-for ch in S:
-    print(ch)
+n = int (input ("Nhập vào một sô: "))
+d = dict ()
+
+for i in range(1, n + 1):
+    d[i] = i * i
+    
+print (d)

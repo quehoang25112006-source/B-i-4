@@ -2,6 +2,8 @@ print("Sinh vien: Hoang Van Que")
 print("Ma so SV : 245752021610045")
 print("###########################")
 ########*##*#####################
-S = input ('Nhap chuoi:')
-for ch in S:
-    print(ch)
+def sum (a, b):
+  print ("sum = " + str (a + b))
+
+sum (4, 5)
+sum (3, 7)

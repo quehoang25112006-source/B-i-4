@@ -1,4 +1,8 @@
-s = input('Nhap chuoi:')
-s_hoa = s.upper()
-for ch in s_hoa:
-    print(ch)
+print("Sinh vien: Hoang Van Que")
+print("Ma so SV : 245752021610045")
+print("###########################")
+########*##*#####################
+S = input('Nhap chuoi: ')
+
+for ch in S:
+    print(ch.upper())
